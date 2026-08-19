@@ -1,1 +1,0 @@
-CRITICAL: Memory usage at 32%

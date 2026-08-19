@@ -15,6 +15,7 @@ evaluate_metric() {
         # Generate an isolated alert file locally
         local alert_file="${WORKSPACE_DIR}/alerts/${metric_name}_alert_$(date +%Y%m%d_%H%M%S).txt"
         echo "CRITICAL: ${metric_name} usage at ${current_val}%" > "$alert_file"
+        echo "-------------------------------------------------" >> "$alert_file"
     else
         echo "✅ ${metric_name}: ${current_val}% (Healthy)" >> "$report_file"
     fi

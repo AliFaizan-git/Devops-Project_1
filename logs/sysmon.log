@@ -1,9 +1,0 @@
-[2026-08-19T15:06:31+0500] [INFO]  Starting system monitor...
-[2026-08-19T15:06:31+0500] [INFO]  Report successfully generated at: /home/ali_faizan/devops/Project_1/reports/health_report_20260819_150631.txt
-[2026-08-19T15:06:31+0500] [INFO]  sysmon execution finished. Lock file removed.
-[2026-08-19T15:09:29+0500] [INFO]  Starting system monitor...
-[2026-08-19T15:09:29+0500] [WARN]  Disk Usage Critical: 1% (Threshold: 0%)
-[2026-08-19T15:09:29+0500] [WARN]  Memory Usage Critical: 32% (Threshold: 0%)
-[2026-08-19T15:09:29+0500] [WARN]  CPU Usage Critical: 1% (Threshold: 0%)
-[2026-08-19T15:09:29+0500] [INFO]  Report successfully generated at: /home/ali_faizan/devops/Project_1/reports/health_report_20260819_150929.txt
-[2026-08-19T15:09:29+0500] [INFO]  sysmon execution finished. Lock file removed.

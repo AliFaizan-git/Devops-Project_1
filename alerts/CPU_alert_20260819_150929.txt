@@ -1,1 +1,0 @@
-CRITICAL: CPU usage at 1%

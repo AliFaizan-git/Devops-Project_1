@@ -15,7 +15,7 @@ source "${WORKSPACE_DIR}/lib/logging.sh"
 source "${WORKSPACE_DIR}/lib/metrics.sh"
 source "${WORKSPACE_DIR}/lib/alerting.sh"
 
-# 4. Defensive Lock File & Trap (Session 4)
+# 4. Defensive Lock File & Trap 
 LOCK_FILE="${WORKSPACE_DIR}/sysmon.lock"
 
 if [ -f "$LOCK_FILE" ]; then
@@ -29,6 +29,7 @@ touch "$LOCK_FILE" # Create the lock
 cleanup() {
     rm -f "$LOCK_FILE"
     log_info "sysmon execution finished. Lock file removed."
+    log_edit ""
 }
 trap cleanup EXIT
 
