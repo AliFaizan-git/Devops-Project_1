@@ -8,3 +8,36 @@
 [2026-08-20T03:03:05+0500] [INFO]  Running filesystem maintenance tasks...
 [2026-08-20T03:03:05+0500] [INFO]  sysmon execution finished. Lock file removed.
 ------------------------------------------------ 
+[2026-08-20T03:24:29+0500] [INFO]  Starting system monitor...
+[2026-08-20T03:24:30+0500] [WARN]  Disk Usage Critical: 1% (Threshold: 0%)
+[2026-08-20T03:24:30+0500] [WARN]  Memory Usage Critical: 36% (Threshold: 0%)
+[2026-08-20T03:24:30+0500] [WARN]  CPU Usage Critical: 8% (Threshold: 0%)
+[2026-08-20T03:24:30+0500] [INFO]  Report successfully generated at: /home/ali_faizan/devops/Project_1/reports/health_report_20260820_032430.txt
+[2026-08-20T03:24:30+0500] [INFO]  Running filesystem maintenance tasks...
+[2026-08-20T03:24:30+0500] [INFO]  Cleaning up old reports (keeping newest 7)
+[2026-08-20T03:24:30+0500] [INFO]  Cleaning up alerts older than 7 days...
+[2026-08-20T03:24:30+0500] [INFO]  Retention policy applied
+[2026-08-20T03:24:30+0500] [INFO]  No large orphaned files detected in /tmp.
+[2026-08-20T03:24:30+0500] [INFO]  sysmon execution finished. Lock file removed.
+------------------------------------------------ 
+[2026-08-20T03:28:17+0500] [INFO]  Starting system monitor...
+[2026-08-20T03:28:18+0500] [WARN]  Disk Usage Critical: 1% (Threshold: 0%)
+[2026-08-20T03:28:18+0500] [WARN]  Memory Usage Critical: 36% (Threshold: 23%)
+[2026-08-20T03:28:18+0500] [INFO]  Report successfully generated at: /home/ali_faizan/devops/Project_1/reports/health_report_20260820_032818.txt
+[2026-08-20T03:28:18+0500] [INFO]  Running filesystem maintenance tasks...
+[2026-08-20T03:28:18+0500] [INFO]  Cleaning up old reports (keeping newest 7)
+[2026-08-20T03:28:18+0500] [INFO]  Cleaning up alerts older than 7 days...
+[2026-08-20T03:28:18+0500] [INFO]  Retention policy applied
+[2026-08-20T03:28:18+0500] [INFO]  No large orphaned files detected in /tmp.
+[2026-08-20T03:28:18+0500] [INFO]  sysmon execution finished. Lock file removed.
+------------------------------------------------ 
+[2026-08-20T03:28:53+0500] [INFO]  Starting system monitor...
+[2026-08-20T03:28:53+0500] [WARN]  Memory Usage Critical: 36% (Threshold: 3%)
+[2026-08-20T03:28:53+0500] [INFO]  Report successfully generated at: /home/ali_faizan/devops/Project_1/reports/health_report_20260820_032853.txt
+[2026-08-20T03:28:53+0500] [INFO]  Running filesystem maintenance tasks...
+[2026-08-20T03:28:53+0500] [INFO]  Cleaning up old reports (keeping newest 7)
+[2026-08-20T03:28:53+0500] [INFO]  Cleaning up alerts older than 7 days...
+[2026-08-20T03:28:53+0500] [INFO]  Retention policy applied
+[2026-08-20T03:28:53+0500] [INFO]  No large orphaned files detected in /tmp.
+[2026-08-20T03:28:53+0500] [INFO]  sysmon execution finished. Lock file removed.
+------------------------------------------------ 
