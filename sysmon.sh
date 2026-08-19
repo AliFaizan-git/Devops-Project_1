@@ -14,6 +14,7 @@ CPU_THRESHOLD="${3:-80}"
 source "${WORKSPACE_DIR}/lib/logging.sh"
 source "${WORKSPACE_DIR}/lib/metrics.sh"
 source "${WORKSPACE_DIR}/lib/alerting.sh"
+source "${WORKSPACE_DIR}/lib/maintenance.sh" 
 
 # 4. Defensive Lock File & Trap 
 LOCK_FILE="${WORKSPACE_DIR}/sysmon.lock"
@@ -55,3 +56,5 @@ evaluate_metric "CPU" "$CURRENT_CPU" "$CPU_THRESHOLD" "$REPORT_FILE"
 echo "----------------------------" >> "$REPORT_FILE"
 
 log_info "Report successfully generated at: $REPORT_FILE"
+
+manage_filesystem
