@@ -1,0 +1,3 @@
+[2026-08-19T15:06:31+0500] [INFO]  Starting system monitor...
+[2026-08-19T15:06:31+0500] [INFO]  Report successfully generated at: /home/ali_faizan/devops/Project_1/reports/health_report_20260819_150631.txt
+[2026-08-19T15:06:31+0500] [INFO]  sysmon execution finished. Lock file removed.

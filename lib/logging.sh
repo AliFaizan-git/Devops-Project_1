@@ -1,5 +1,3 @@
-WORKSPACE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-
 mkdir -p "${WORKSPACE_DIR}/logs"
 MAIN_LOG_FILE="${WORKSPACE_DIR}/logs/sysmon.log"
 
