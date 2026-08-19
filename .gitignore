@@ -1,0 +1,9 @@
+# Output directories (Local State)
+# commenting the directories to demostrate that the script runs successfully
+# logs/
+# reports/
+# alerts/
+
+# OS generated files
+.DS_Store
+*.tmp
