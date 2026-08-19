@@ -1,1 +1,1 @@
-0 8 * * * cd /home/ali_faizan/devops/Project_1/sysmon && ./sysmon.sh >/dev/null 2>&1
+0 8 * * * cd /home/ali_faizan/devops/Project_1 && ./sysmon.sh >/dev/null 2>&1

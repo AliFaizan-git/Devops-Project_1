@@ -69,3 +69,19 @@
 [2026-08-20T03:31:55+0500] [INFO]  No large orphaned files detected in /tmp.
 [2026-08-20T03:31:55+0500] [INFO]  sysmon execution finished. Lock file removed.
 ------------------------------------------------ 
+[2026-08-20T03:40:01+0500] [INFO]  Starting system monitor...
+[2026-08-20T03:40:01+0500] [INFO]  Report successfully generated at: /home/ali_faizan/devops/Project_1/reports/health_report_20260820_034001.txt
+[2026-08-20T03:40:01+0500] [INFO]  Running filesystem maintenance tasks...
+[2026-08-20T03:40:01+0500] [INFO]  Cleaning up old reports (keeping newest 7)
+[2026-08-20T03:40:01+0500] [INFO]  Cleaning up alerts older than 7 days...
+[2026-08-20T03:40:01+0500] [INFO]  Retention policy applied
+[2026-08-20T03:40:01+0500] [INFO]  sysmon execution finished. Lock file removed.
+------------------------------------------------ 
+[2026-08-20T03:41:01+0500] [INFO]  Starting system monitor...
+[2026-08-20T03:41:02+0500] [INFO]  Report successfully generated at: /home/ali_faizan/devops/Project_1/reports/health_report_20260820_034102.txt
+[2026-08-20T03:41:02+0500] [INFO]  Running filesystem maintenance tasks...
+[2026-08-20T03:41:02+0500] [INFO]  Cleaning up old reports (keeping newest 7)
+[2026-08-20T03:41:02+0500] [INFO]  Cleaning up alerts older than 7 days...
+[2026-08-20T03:41:02+0500] [INFO]  Retention policy applied
+[2026-08-20T03:41:02+0500] [INFO]  sysmon execution finished. Lock file removed.
+------------------------------------------------ 
