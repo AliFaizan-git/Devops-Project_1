@@ -6,17 +6,23 @@ A lightweight, modular, and production-ready Bash utility designed to monitor cr
 
 * **Modular Architecture:** Core logic is decoupled into distinct libraries for logging, metric collection, alerting, and maintenance.
 * **Defensive Engineering:** Implements strict mode (`set -euo pipefail`), dynamic path resolution, and lock-file mechanisms (`trap`) to ensure safe execution in automated environments.
-* **Automated Lifecycle Management:** Features a rolling, count-based retention policy that automatically preserves the 7 most recent artifacts and deletes older ones, alongside a large-file audit system.
 * **Localized State Management:** All generated artifacts (logs, reports, alerts) are safely written to local directories, preventing system pollution.
 * **Zero Dependencies:** Relies entirely on standard Linux kernel utilities (`df`, `free`, `top`) and text processing tools (`awk`, `grep`, `sed`, `find`, `xargs`).
+
+## Retention Policy
+To ensure efficient disk usage, the `maintenance.sh` script enforces the following data lifecycle:
+
+| File Type | Retention Strategy | Policy Detail |
+| :--- | :--- | :--- |
+| **Reports** | Rolling Retention | Keeps only the **latest 7** generated report files. |
+| **Alerts** | Time-based | Deletes log files older than **7 days**. |
 
 ## 📁 Repository Structure
 
 ```text
 sysmon/
 ├── sysmon.sh              # Main orchestrator script
-├── config/
-│   ├── sysmon.env         # Environment variables and thresholds
+├── config/ds
 │   └── sysmon.cron        # Example crontab configuration
 ├── lib/
 │   ├── alerting.sh        # Threshold evaluation and alert generation
